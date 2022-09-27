@@ -1,0 +1,212 @@
+@font-face{
+    font-family: 'school';
+    src:url(../fontes/Letters\ for\ Learners.ttf)
+    
+}
+:root{
+    --fontesite:'school';
+    --corprimaria:rgb(126, 21, 15);
+    --corsecundaria:blanchedalmond;
+}
+a{
+    color: rgb(126, 21, 15);
+    font-family: var(--fontesite);
+    
+}
+body{
+    font-family: var(--fontesite);
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--corsecundaria);
+    align-items: center;
+}
+.logo{
+    margin-left: 50px;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 28px;
+    min-width: 320px;
+    max-width: 800px;
+}
+.menu li{
+    margin: 20px;
+    font-size: 32px;
+}
+.menu li:hover{
+    font-size: 36px;
+}
+.titulo{
+    color: var(--corprimaria);
+    font-size: 44px;
+    font-family: var(--fontesite);
+    padding: 40px;
+    text-align: center;
+}
+.fundo-menu{
+    background-color: var(--corsecundaria);
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.coluna-margem{
+    display: flex;
+    width: 25%;
+    min-width: 280px;
+    justify-content: center;
+}
+.coluna-margem2{
+    display: flex;
+    width: 33%;
+    min-width: 280px;
+    justify-content: center;
+}
+.container{
+    width: 260px;
+    height: 640px;
+    background-color: var(--corsecundaria);
+    margin: 20px;
+    border: 3px solid var(--corprimaria);
+}
+.produto{
+    width: 100%;
+    height: 100px;
+    color: var(--corsecundaria);
+    background-color: var(--corprimaria);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subtitulo{
+    color: var(--corprimaria);
+    text-align: center;
+    padding: 5px;
+    font-size: 32px;
+}
+.sabores{
+    color: var(--corprimaria);
+    margin-left: 40px;
+    font-size: 22px;
+    list-style-type: circle;
+}
+.container-sabores{
+    background-color: var(--corsecundaria);
+    width: 254px;
+    height: 190px;
+}
+.container-desc{
+    background-color: var(--corsecundaria);
+    width: 254px;
+    height: 196px;
+}
+.container-desc2{
+    background-color: var(--corsecundaria);
+    width: 254px;
+    height: 142px;
+}
+.container-desc3{
+    background-color: var(--corsecundaria);
+    width: 254px;
+    height: 152px;
+}
+.valor{
+    color: var(--corprimaria);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 14px;
+}
+.descricao{
+    font-size: 24px;
+    color: var(--corprimaria);
+    margin:9px;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.valor2{
+    color: var(--corprimaria);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.valor3{
+    color: var(--corprimaria);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.quemsomos{
+    font-family: var(--fontesite);
+    color: var(--corprimaria);
+    font-size: 36px;
+    text-align: center;
+    margin-right: 65px;
+    margin-left: 65px;
+    padding-bottom: 80px;
+}
+footer{
+    background-color: var(--corprimaria);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.descricao-contato{
+    color: var(--corsecundaria);
+    font-size: 32px;
+}
+.descricao-redes-sociais{
+    color: var(--corsecundaria);
+    font-size: 66px;
+    margin: 15px;
+}
+.teste{
+    background-color: var(--corprimaria);
+    width: 256px;
+    height: 100px;
+}
+.container-preco{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    
+}
+.container-preco2{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 79px;
+    text-align: center;
+    line-height: 79px;
+}
+.container-preco3{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+}
+.container-preco4{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 114px;
+    text-align: center;
+    line-height: 114px;
+}
+.preco-duplo{
+    line-height: 28px;
+}
