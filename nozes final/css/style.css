@@ -207,6 +207,13 @@ footer{
     text-align: center;
     line-height: 114px;
 }
+.container-preco5{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 104px;
+    text-align: center;
+    line-height: 104px;
+}
 .preco-duplo{
     line-height: 28px;
 }
