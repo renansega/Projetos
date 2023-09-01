@@ -80,7 +80,7 @@ body{
     height: 100px;
     color: var(--corsecundaria);
     background-color: var(--corprimaria);
-    font-size: 30px;
+    font-size: 26px;
     text-decoration: underline;
     text-align: center;
     display: flex;
@@ -213,6 +213,13 @@ footer{
     height: 100px;
     text-align: center;
     line-height: 100px;
+}
+.container-preco6{
+    background-color: rgb(255, 274, 244);
+    width: 254px;
+    height: 70px;
+    text-align: center;
+    line-height: 110px;
 }
 .preco-duplo{
     line-height: 28px;
